@@ -21,17 +21,18 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  title: 'AI', // Title for your website.
+  tagline: 'AI for u',
+  url: 'https://jasmin596.github.io', // Your website URL
+ 
+  baseUrl: '/ai/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'docusaraus_test',
+  organizationName: 'jasmin596',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -94,13 +95,13 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
