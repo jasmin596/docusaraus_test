@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'AI', // Title for your website.
   tagline: 'AI for u',
   url: 'https://jasmin596.github.io', // Your website URL
-  baseUrl: '/ai/', // Base URL for your project */
+  baseUrl: '/test_website/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -106,4 +106,5 @@ const siteConfig = {
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
 };
+
 module.exports = siteConfig;
