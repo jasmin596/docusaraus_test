@@ -11,17 +11,17 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    //caption: 'User1',
+    caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    //image: '/img/undraw_open_source.svg',
-    //infoLink: 'https://www.facebook.com',
-    //pinned: true,
+    image: '/img/undraw_open_source.svg',
+    infoLink: 'https://www.facebook.com',
+    pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'AI', // Title for your website.
+  title: 'AI website', // Title for your website.
   tagline: 'AI for u',
   url: 'https://jasmin596.github.io', // Your website URL
   baseUrl: '/test_website/', // Base URL for your project */
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#81499b',
-    secondaryColor: '#5a336c',
+    primaryColor: '#389e05',
+    secondaryColor: '#276e03',
   },
 
   /* Custom fonts for website */
@@ -94,13 +94,13 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  docsSideNavCollapsible: true,
+  // docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  enableUpdateBy: true,
+  // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  enableUpdateTime: true,
+  // enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
